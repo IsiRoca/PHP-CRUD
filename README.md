@@ -141,7 +141,7 @@ foreach($response as $row){
 
 ### Delete ###
 
-Delete a Row in a Database
+Delete a Row in a Table
 
 Use the following schema:
 [Table name], [WHERE]
@@ -155,7 +155,7 @@ echo $response[0]==TRUE ? 'TRUE' : 'FALSE';
 
 ### Insert ###
 
-Insert a Row in a Database
+Insert a Row in a Table
 
 Use the following schema:
 [Table name], [INSERT]
@@ -171,7 +171,7 @@ echo $response[0]==TRUE ? 'TRUE' : 'FALSE';
 
 ### Update ###
 
-Update a Row in a Database
+Update a Row in a Table
 
 Use the following schema:
 [Table name], [UPDATE Values], [WHERE]
@@ -185,7 +185,7 @@ echo $response[0]==TRUE ? 'TRUE' : 'FALSE';
 
 ### Select ###
 
-Select Rows in a Database
+Select Rows in a Table
 
 Use the following schema:
 [Table name], [Column Names], [JOIN], [WHERE], [LIKE], [ORDER BY]
